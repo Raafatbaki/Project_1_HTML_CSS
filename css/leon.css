@@ -1,0 +1,42 @@
+/* Start Variables */
+
+/* End Variables */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* End Global Rules */
+.parent {
+  background-color: #eee;
+}
+.contaniner {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #aaa;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .contaniner {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .contaniner {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .contaniner {
+    width: 1170px;
+  }
+}
