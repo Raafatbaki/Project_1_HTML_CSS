@@ -117,6 +117,8 @@ body {
 .header .links ul li:not(:last-child) a {
   border-bottom: 1px solid #ddd;
 }
+/* End Header */
+/* Start Landing Section */
 .landing {
   background-image: url(../imags/landing.jpg);
   background-size: cover;
@@ -142,5 +144,16 @@ body {
   font-size: 19px;
   line-height: 1.8;
 }
-
-/* End Header */
+/* End Landing Section */
+/* Start Features */
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f6f6f6;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+/* End Features */
